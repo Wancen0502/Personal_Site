@@ -1,9 +1,45 @@
+/* General effect for all pages */
 body{
-  background-color: #FED8B1;
+  background-color:#FED8B1;
   color:#6F4E37;
 }
 
 .top-container,.bottom-container{
   background-color: #6F4E37;
   color:#FED8B1;
+}
+
+.webNavigation{
+  list-style-type: none;
+}
+
+/* effect of hyperlink on the website*/
+a:link{
+  color:rgb(254, 216, 177,0.6);
+}
+
+a:visited{
+  color:#FFFBE9;
+}
+
+a:hover{
+  color:#ECB176;
+}
+
+a:active{
+  color:rgb(166, 123, 91,0.6);
+}
+
+a{
+  text-decoration: none;
+}
+
+.copyrightFoot{
+  text-align: center;
+}
+
+#exploreButton{
+  font-size:30px;
+  background-color: #6F4E37;
+  font-weight: bold;
 }
