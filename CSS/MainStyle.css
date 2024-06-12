@@ -1,8 +1,18 @@
 /* General effect for all pages */
+/*
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+*/
+
 body{
   background-color:#FED8B1;
   color:#6F4E37;
+
 }
+
 
 .top-container,.bottom-container{
   background-color: #6F4E37;
@@ -36,10 +46,12 @@ a{
 
 .copyrightFoot{
   text-align: center;
+  cursor: pointer;
 }
 
 #exploreButton{
   font-size:30px;
   background-color: #6F4E37;
   font-weight: bold;
+
 }
