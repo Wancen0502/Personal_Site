@@ -46,7 +46,7 @@ a{
 
 .copyrightFoot{
   text-align: center;
-  cursor: pointer;
+  cursor:url('Image/icons8-butterfly-50.png'),auto;
 }
 
 #exploreButton{
