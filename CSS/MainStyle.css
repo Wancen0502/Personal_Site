@@ -8,14 +8,15 @@
 */
 
 body{
-  background-color:#FED8B1;
+  /*background-color:#FED8B1;*/
+  background-image: url("backgroundImage.svg");
   color:#6F4E37;
-
+  cursor: url('butterflyAuto.png'),auto;
 }
 
 
 .top-container,.bottom-container{
-  background-color: #6F4E37;
+  background-color: #8E806A;
   color:#FED8B1;
 }
 
@@ -23,35 +24,38 @@ body{
   list-style-type: none;
 }
 
+.topButton{
+  cursor: url('butterflyPointer.png'),auto;
+}
+
 /* effect of hyperlink on the website*/
-a:link{
+.topButton:link{
   color:rgb(254, 216, 177,0.6);
 }
 
-a:visited{
-  color:#FFFBE9;
+.topButton:visited{
+  color:#FFE6BC;
 }
 
-a:hover{
+.topButton:hover{
   color:#ECB176;
 }
 
-a:active{
+.topButton:active{
   color:rgb(166, 123, 91,0.6);
 }
 
-a{
+.topButton{
   text-decoration: none;
 }
 
 .copyrightFoot{
   text-align: center;
-  cursor:url('Image/icons8-butterfly-50.png'),auto;
 }
 
 #exploreButton{
   font-size:30px;
-  background-color: #6F4E37;
+  background-color: #8E806A;;
   font-weight: bold;
 
 }
