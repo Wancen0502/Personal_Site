@@ -1,34 +1,60 @@
-/* General effect for all pages */
-/*
+/* General for all pages */
 *{
   padding:0;
   margin:0;
-  box-sizing: border-box;
+  *box-sizing: border-box;
 }
-*/
 
 body{
-  /*background-color:#FED8B1;*/
   background-image: url("backgroundImage.svg");
   color:#6F4E37;
   cursor: url('butterflyAuto.png'),auto;
-}
-
-
-.top-container,.bottom-container{
-  background-color: #8E806A;
-  color:#FED8B1;
-}
-
-.webNavigation{
-  list-style-type: none;
 }
 
 .topButton{
   cursor: url('butterflyPointer.png'),auto;
 }
 
-/* effect of hyperlink on the website*/
+/*Float relative set start*/
+.leftfix{
+  float: left;
+}
+
+.rightfix{
+  float:right;
+}
+
+.clearfix{
+  clear:both;
+}
+/*Float relative set end*/
+
+.container{
+  width:1190px;
+  margin:0 auto;
+}
+
+/* Topbar Start*/
+.top-container{
+  height: 40px;
+  background-color: #8E806A;
+  color:#FED8B1;
+}
+
+
+.webNavigation .list li{
+    list-style-type: none;
+    float:left;
+    padding:0 15px;
+}
+
+.webNavigation .list{
+  height: 40px;
+  line-height:40px;
+}
+
+
+/* effect of hyperlink on the website start*/
 .topButton:link{
   color:rgb(254, 216, 177,0.6);
 }
@@ -48,14 +74,8 @@ body{
 .topButton{
   text-decoration: none;
 }
+/* effect of hyperlink on the website end*/
 
 .copyrightFoot{
   text-align: center;
-}
-
-#exploreButton{
-  font-size:30px;
-  background-color: #8E806A;;
-  font-weight: bold;
-
 }
