@@ -1,6 +1,43 @@
 /*Homepage effect start*/
-#exploreButton{
-  font-size:30px;
-  background-color: #8E806A;;
-  font-weight: bold;
+
+/*Welcome Title*/
+.WelcomeTitle{
+  padding:250px;
+  text-align: center;
+}
+
+.WELCOME{
+  font-size: 100px;
+}
+
+.selfIntroduction{
+  padding:300px;
+  text-align: center;
+}
+
+.selfIntroduction .headOfPage{
+  font-size: 60px;
+  text-align: center;
+}
+
+.selfIntroduction .description{
+  padding-top: 30px;
+}
+
+.aboutMe{
+  padding:250px;
+  padding-left: 600px;
+}
+
+.aboutMe .Words{
+  font-size: 16px;
+}
+
+.exporeButton{
+  margin: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px;
+  text-align: center;
+  background-color: #8E806A;
 }
