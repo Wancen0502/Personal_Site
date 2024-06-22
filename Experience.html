@@ -6,7 +6,7 @@
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     <title>Wancen's Experience</title>
       <link rel="stylesheet" href="CSS/MainStyle.css">
-      <link rel="stylesheet" href="CSS/Experience.css">
+      <link rel="stylesheet" href="CSS/ExperienceEffect.css">
       <link rel="icon" href="Image/y.ico">
   </head>
   <body>
@@ -24,60 +24,75 @@
     </div>
   <div class = "middle-container">
     <div class="container clearfix">
-    <!-- Head: My Experience -->  
-    <div class = "MyExperienceHead">
+    <!-- Head: My Experience -->
+      <div class = "MyExperienceHead">
       <h1>My Experience</h1>
     </div>
     <!-- Personal Basic information-->
-    <div class="basicInformation">
-    <h2>Wancen Yang(She/Her)</h2>
-    <ul>
-      <li>Email: <a href = "mailto: yang.wanc@northeastern.edu">yang.wanc@northeastern.edu</a></li>
-      <li>Tel (US): <a href = "tel:6802075987">+1 6802075987</a></li>
-      <li>Tel (CN): <a href = "tel:18710001083">+86 18710001083</a></li>
-      <li><address>Address: 760 N.7th Street, 5208 Unit, San Jose, CA 95112</address></li>
-    </ul>
-      <h3><a href="Document/Wancen Yang- CV .pdf ">CV Download</a></h3>  <!-- CV dowload Button-->
-    </div>
-    <hr>
+        <div class="basicInformation clearfix">
+          <div class="information-right rightfix">
+            <h2 class="name">Wancen Yang(She/Her)</h2>
+            <ul class="list">
+              <li>Email: <a href = "mailto: yang.wanc@northeastern.edu">yang.wanc@northeastern.edu</a></li>
+              <li>Tel (US): <a href = "tel:6802075987">+1 6802075987</a></li>
+              <li>Tel (CN): <a href = "tel:18710001083">+86 18710001083</a></li>
+              <li><address>Address: 760 N.7th Street, 5208 Unit, San Jose, CA 95112</address></li>
+            </ul>
+            <div class="CVdownload">  <!-- CV dowload Button-->
+              <a href="Document/Wancen Yang- CV .pdf ">CV Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="education clearfix">
       <!-- Enducation(List1)-->
-      <h2>Education Background</h2>
-      <ol>
-        <li>Northeastern University</li>
-        <ul>
-          <li><em>2023-2025  Master of Science in Information System</em></li>
-          <li>Main Course</li>
-        <ul>
-              <li>Application Modeling and Design</li>
-              <li>Program Structure and Algorithms</li>
-              <li>Web Design and User Experience Engineering</li>
-        </ul>
-        </ul>
-        <li>Syrcause University</li>
-        <ul>
-          <li><em>2023-2025  Master of Science in Public Relations</em></li>
-          <li>Main Course</li>
-        <ul>
-              <li>Foundations of Analytics, Social Listening and Information Gathering</li>
-              <li>Public Relations Research</li>
-              <li>Multimedia Storytelling</li>
-        </ul>
-        </ul>
-        <li>University of International Relations</li>
-        <ul>
-          <li><em>2007-2021  Bachelor of Art in Commnucation</em></li>
-          <li>Main Course</li>
-        <ul>
-        <li>Main Course</li>
-            <li>Integrated Marketing Communication</li>
-            <li>New Media Management</li>
-            <li>News Gathering and Writing</li>
-        </ul>
-        </ul>
-    </ol>
-    <hr>
+          <div class="educationHead">
+            <h2 id="EducationBackground">Education Background</h2>
+          </div>
+          <div class="education clearfix">
+          <div class="NEU leftfix">
+            <h3>Northeastern University</h3>
+              <div class="degree">
+              <p>2023-2025</p>
+              <p><em>Master of Science in Information System</em></p>
+            </div>
+              <h4 class="mainCourse">Main Course</h4>
+              <ul>
+                <li>Application Modeling and Design</li>
+                <li>Program Structure and Algorithms</li>
+                <li>Web Design and User Experience Engineering</li>
+              </ul>
+          </div>
+          <div class="SU leftfix">
+              <h3>Syrcause University</h3>
+                <div class="degree">
+                <p>2022-2023</p>
+                <p><em>Master of Science in Public Relations</em></p>
+                </div>
+                <h4 class="mainCourse">Main Course</h4>
+              <ul>
+                <li>Public Relations Research</li>
+                <li>Multimedia Storytelling</li>
+                <li>Graphic Design</li>
+            </ul>
+          </div>
+          <div class="UIR leftfix">
+            <h3>University of International Relations</h3>
+              <div class="degree">
+              <p>2007-2021</p>
+              <p><em> Bachelor of Art in Commnucation</em></p>
+            </div>
+              <h4 class="mainCourse">Main Course</h4>
+              <ul>
+                <li>Integrated Marketing Communication</li>
+                <li>New Media Management</li>
+                <li>News Gathering and Writing</li>
+              </ul>
+          </div>
+        </div>
+  </div>
     <!-- Work Experience(List2)-->
-      <h2>Professional Experience</h2>
+  <div class="professional clearfix">
+      <h2 id="ProfessionalExperience">Professional Experience</h2>
       <ol>
         <li>The Valley Multimedia (CA, US)</li>
         <ul>
@@ -135,6 +150,7 @@ article has successfully received <strong>over 100,000</strong> views.</li>
         </ul>
     </ol>
   </div>
+</div>
 </div>
     <div class = "bottom-container">
       <h6 class = "copyrightFoot" >&copy; 2024 by Wancen Yang</h6>

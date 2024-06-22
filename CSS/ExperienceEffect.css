@@ -1,0 +1,86 @@
+/* Head: Experience*/
+.MyExperienceHead{
+  padding-top:40px;
+}
+
+.MyExperienceHead h1{
+  font-size: 36px;
+}
+
+/*Basic Information start*/
+.basicInformation{
+  padding-top:40px;
+  padding-left:60px;
+  padding-right:60px;
+}
+
+.information-right{
+  margin-right: 80px;
+  padding:20px;
+  background-color: #8E806A;
+}
+
+.information-right .name{
+  color:#FFE6BC;
+}
+
+.information-right .list li{
+  list-style-type: none;
+  padding: 5px 0px;
+  color:#FFE6BC;
+}
+
+.information-right .list li address{
+  font-style: normal;
+}
+
+.information-right .CVdownload{
+  background-color: #6F4E37;
+  text-align: center;
+  margin-top:10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+/*Basic Information end*/
+
+/*Education Experience Start*/
+.educationHead{
+  padding-top:80px;
+  padding-bottom:10px;
+}
+
+#EducationBackground, #ProfessionalExperience{
+  font-size:28px;
+}
+
+.NEU,.SU,.UIR{
+  padding:30px;
+  padding-right:10px;
+  padding-bottom:70px;
+  text-align: left;
+}
+
+.education h3{
+  font-size:20px;
+}
+
+.education p{
+  font-size:16px;
+  color:#8E806A;
+}
+
+.education h4{
+  font-size:16px;
+}
+
+.degree{
+  padding:10px 0px;
+}
+
+.education ul li{
+  color: #8E806A;
+  font-size: 15px;
+  list-style-type: none;
+}
