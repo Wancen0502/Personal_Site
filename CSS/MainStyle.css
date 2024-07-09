@@ -75,7 +75,8 @@ a{
 }
 /* effect of hyperlink on the website end*/
 
-.copyrightFoot{
+.bottom-container{
+  padding-top:100px;
   padding-bottom:20px;
   text-align: center;
 }

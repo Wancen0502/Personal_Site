@@ -45,7 +45,7 @@
 }
 /*Basic Information end*/
 
-/*Education Experience Start*/
+/*Education Experience start*/
 .educationHead{
   padding-top:80px;
   padding-bottom:10px;
@@ -84,3 +84,14 @@
   font-size: 15px;
   list-style-type: none;
 }
+/*Education Experience end*/
+
+/*Professional Experience start*/
+.company{
+  margin-top:50px;
+}
+
+.responsiblity ul li{
+  list-style-type: none;
+}
+/*Professional Experience end*/
